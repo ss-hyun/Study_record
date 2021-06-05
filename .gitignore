@@ -1,0 +1,8 @@
+*.jpg
+연습장/
+2020*/
+Debug/
+*.sln
+*.sdf
+*.vcxproj
+*.filters
