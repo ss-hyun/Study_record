@@ -77,7 +77,7 @@ draft: false
 
 ## **기타(Other)**
 ---
-* [string](file:///C:/Users/yunaHyeon/Desktop/TIL/TIL_markdown_doc/c&c++/c++_string.md)
+* [string](c++_string.md)
 * [limits]()
 * [tuple]()
 
