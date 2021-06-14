@@ -5,3 +5,4 @@ void p2798();
 void p10250();
 void p11050();
 void p1018();
+void p1181();
