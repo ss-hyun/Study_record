@@ -29,6 +29,14 @@ int main(){
 		cout << problem << "번 문제 솔루션 실행 시작\n";
 		p10250();
 		break;
+	case 11050:
+		cout << problem << "번 문제 솔루션 실행 시작\n";
+		p11050();
+		break;
+	case 1018:
+		cout << problem << "번 문제 솔루션 실행 시작\n";
+		p1018();
+		break;
 	default:
 		cout << problem << "은 없는 문제입니다.\n";
 		break;
