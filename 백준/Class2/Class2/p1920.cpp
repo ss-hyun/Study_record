@@ -14,7 +14,7 @@ void p1920(){
 	int n, m;
 	vector<node> tree(100001);
 	
-	// 풀이 1
+	// 풀이 1 : 이진 트리 이용하여 search
 	cin >> n;
 	// size : dummy node 제외한 node 수
 	int i, temp, curr ,size = 0;
@@ -71,7 +71,7 @@ void p1920(){
 		}
 	}
 
-	// 풀이 2
+	// 풀이 2 : 분할 정복 이용하여 search
 	/*
 	cin >> n;
 	int i, temp;
