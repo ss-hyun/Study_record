@@ -2,7 +2,7 @@
 
 using namespace std;
 
-
+// 백준 2164번 카드 2
 void p2164(){
 	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
