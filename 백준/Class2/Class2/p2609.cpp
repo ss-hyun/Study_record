@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// 백준 2609번
+// 백준 2609번 최대공약수와 최소공배수
 void p2609(){
 	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
