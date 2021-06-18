@@ -9,4 +9,5 @@ Debug/
 *.vcxproj
 *.filters
 *.suo
+*.user
 git ignore 사용법.jpg
