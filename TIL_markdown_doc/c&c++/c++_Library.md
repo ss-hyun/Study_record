@@ -5,16 +5,16 @@ draft: false
 ---
 
 # **목차**
-[c++ 표준 템플릿 라이브러리(STL)](#c++%20표준%20템플릿%20라이브러리(STL))  
-* [컨테이너](#컨테이너(Container))
-* [반복자](#반복자(Iterator))
-* [알고리즘](#알고리즘(Algorithm))
-* [함수자](#함수자(Functor))  
+[c++ 표준 템플릿 라이브러리(STL)](#c-표준-템플릿-라이브러리stl)  
+* [컨테이너](#컨테이너container)
+* [반복자](#반복자iterator)
+* [알고리즘](#알고리즘algorithm)
+* [함수자](#함수자functor)  
 
-[c++ 표준 라이브러리](#c++%20표준%20라이브러리)
-* [Input/Output](#Input/Output)
-* [기타 라이브러리](#기타(Other))
-* [C 라이브러리](#C%20라이브러리(c%20library))
+[c++ 표준 라이브러리](#c-표준-라이브러리)
+* [Input/Output](#inputoutput)
+* [기타 라이브러리](#기타other)
+* [C 라이브러리](#c-라이브러리c-library)
 
 <br>
 
@@ -52,7 +52,7 @@ draft: false
 
 ## **알고리즘(Algorithm)**
 ---
-* [algorithm]()
+* [algorithm](c++_algorithm.md)
 <br>
 
 ## **함수자(Functor)**
@@ -83,7 +83,7 @@ draft: false
 
 <br>
 
-## **C 라이브러리(c library)**
+## **C 라이브러리(C library)**
 ---
 * [cmath (math.h)]()
 * [cstring (string.h)]()
