@@ -20,6 +20,7 @@ void p1978(){
 	}
 	 
 	int n, ans = 0;
+
 	cin >> n;
 	for (int i = 0, temp; i < n; i++){
 		cin >> temp;

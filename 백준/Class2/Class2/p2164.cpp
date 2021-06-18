@@ -7,6 +7,7 @@ void p2164(){
 	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 	 
 	int n; bool is_trash[500001] = { false, };
+
 	cin >> n;
 	int curr = 1, card_num = n;
 	while (card_num != 1){

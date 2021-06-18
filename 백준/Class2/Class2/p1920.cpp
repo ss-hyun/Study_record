@@ -16,8 +16,7 @@ void p1920(){
 	
 	// 풀이 1 : 이진 트리 이용하여 search
 	cin >> n;
-	// size : dummy node 제외한 node 수
-	int i, temp, curr ,size = 0;
+	int i, temp, curr ,size = 0; // size : dummy node 제외한 node 수
 	cin >> temp;
 	tree[0] = { temp, -1, -1 };
 	for (i = 1; i < n; i++){

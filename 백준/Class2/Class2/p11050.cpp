@@ -11,13 +11,14 @@ void p11050(){
 
 	if (k > n - k)
 		k = n - k;
+
 	int nume = 1;
 	while (k != 0){
 		ans *= n;
 		nume *= k;
 		n--; k--;
 	}
-	ans /= nume; 
+	ans /= nume;
 
 	cout << ans << endl;
 

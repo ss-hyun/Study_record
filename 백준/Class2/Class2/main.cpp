@@ -11,8 +11,7 @@ int main(){
 	int problem;
 	cin >> problem;
 
-	switch (problem)
-	{
+	switch (problem){
 	case 4153:
 		cout << problem << "번 문제 솔루션 실행 시작\n";
 		p4153();

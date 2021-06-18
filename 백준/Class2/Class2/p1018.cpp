@@ -5,6 +5,7 @@ using namespace std;
 // 백준 1018번 체스판 다시 칠하기
 void p1018(){
 	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+
 	int n, m;
 	// 주어진 보드의 왼쪽 위 모서리가 white로 시작할 때 기준으로 체스판 제작
 	// 자신부터 위/아래로 8칸으로 체스판 제작 기준 다시 칠해야 하는 보드 개수
