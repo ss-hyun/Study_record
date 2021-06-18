@@ -28,7 +28,7 @@ draft: false
 
     두 요소가 같을 때 기존의 순서를 유지해준다는 보장이 없는 [unstable sort](../error_solution.md#unstable-sort "error 기록 바로가기")이기 때문에 유의해서 사용해야 한다.    
     
-    두 요소가 동등할 때(equivalent, ) 기존의 순서를 유지해주기 위해서는 stable_sort를 사용해주거나 용도에 따라 알맞은 비교함수를 작성해주어야 한다.
+    두 요소가 [동치](../용어_정리.md#동치-equivalent)일 때(equivalent elements, ) 기존의 순서를 유지해주기 위해서는 stable_sort를 사용해주거나 용도에 따라 알맞은 비교함수를 작성해주어야 한다.
 
     **매개 변수 (Parameters)**  
     * first & last  
