@@ -1,11 +1,11 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
-// ¹éÁØ 2164¹ø Ä«µå 2
+// ë°±ì¤€ 2164ë²ˆ ì¹´ë“œ 2
 void p2164(){
 	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-
+	 
 	int n; bool is_trash[500001] = { false, };
 	cin >> n;
 	int curr = 1, card_num = n;

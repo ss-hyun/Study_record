@@ -1,8 +1,8 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
-// ¹éÁØ 11050¹ø ÀÌÇ×°è¼ö 1
+// ë°±ì¤€ 11050ë²ˆ ì´í•­ê³„ìˆ˜ 1
 void p11050(){
 	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 	int n, k, ans = 1;
@@ -17,7 +17,7 @@ void p11050(){
 		nume *= k;
 		n--; k--;
 	}
-	ans /= nume;
+	ans /= nume; 
 
 	cout << ans << endl;
 

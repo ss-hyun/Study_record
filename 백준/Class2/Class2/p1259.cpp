@@ -1,10 +1,10 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 
 using namespace std;
 
 void p1259(){
-	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0); 
 	
 	int num; string snum; bool flag;
 	while (true){

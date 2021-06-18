@@ -1,12 +1,12 @@
-#include <Windows.h>
+ï»¿#include <Windows.h>
 #include <iostream>
 #include "problem_list.h"
 
 using namespace std;
 
 int main(){
-
-	cout << "½ÇÇà½ÃÅ³ ¹®Á¦ ¹øÈ£ ÀÔ·Â : ";
+	 
+	cout << "ì‹¤í–‰ì‹œí‚¬ ë¬¸ì œ ë²ˆí˜¸ ìž…ë ¥ : ";
 	
 	int problem;
 	cin >> problem;
@@ -14,47 +14,47 @@ int main(){
 	switch (problem)
 	{
 	case 4153:
-		cout << problem << "¹ø ¹®Á¦ ¼Ö·ç¼Ç ½ÇÇà ½ÃÀÛ\n";
+		cout << problem << "ë²ˆ ë¬¸ì œ ì†”ë£¨ì…˜ ì‹¤í–‰ ì‹œìž‘\n";
 		p4153();
 		break;
 	case 1259:
-		cout << problem << "¹ø ¹®Á¦ ¼Ö·ç¼Ç ½ÇÇà ½ÃÀÛ\n";
+		cout << problem << "ë²ˆ ë¬¸ì œ ì†”ë£¨ì…˜ ì‹¤í–‰ ì‹œìž‘\n";
 		p1259();
 		break;
 	case 2798:
-		cout << problem << "¹ø ¹®Á¦ ¼Ö·ç¼Ç ½ÇÇà ½ÃÀÛ\n";
+		cout << problem << "ë²ˆ ë¬¸ì œ ì†”ë£¨ì…˜ ì‹¤í–‰ ì‹œìž‘\n";
 		p2798();
 		break;
 	case 10250:
-		cout << problem << "¹ø ¹®Á¦ ¼Ö·ç¼Ç ½ÇÇà ½ÃÀÛ\n";
+		cout << problem << "ë²ˆ ë¬¸ì œ ì†”ë£¨ì…˜ ì‹¤í–‰ ì‹œìž‘\n";
 		p10250();
 		break;
 	case 11050:
-		cout << problem << "¹ø ¹®Á¦ ¼Ö·ç¼Ç ½ÇÇà ½ÃÀÛ\n";
+		cout << problem << "ë²ˆ ë¬¸ì œ ì†”ë£¨ì…˜ ì‹¤í–‰ ì‹œìž‘\n";
 		p11050();
 		break;
 	case 1018:
-		cout << problem << "¹ø ¹®Á¦ ¼Ö·ç¼Ç ½ÇÇà ½ÃÀÛ\n";
+		cout << problem << "ë²ˆ ë¬¸ì œ ì†”ë£¨ì…˜ ì‹¤í–‰ ì‹œìž‘\n";
 		p1018();
 		break;
 	case 1181:
-		cout << problem << "¹ø ¹®Á¦ ¼Ö·ç¼Ç ½ÇÇà ½ÃÀÛ\n";
+		cout << problem << "ë²ˆ ë¬¸ì œ ì†”ë£¨ì…˜ ì‹¤í–‰ ì‹œìž‘\n";
 		p1181();
 		break;
 	case 1920:
-		cout << problem << "¹ø ¹®Á¦ ¼Ö·ç¼Ç ½ÇÇà ½ÃÀÛ\n";
+		cout << problem << "ë²ˆ ë¬¸ì œ ì†”ë£¨ì…˜ ì‹¤í–‰ ì‹œìž‘\n";
 		p1920();
 		break;
 	case 1978:
-		cout << problem << "¹ø ¹®Á¦ ¼Ö·ç¼Ç ½ÇÇà ½ÃÀÛ\n";
+		cout << problem << "ë²ˆ ë¬¸ì œ ì†”ë£¨ì…˜ ì‹¤í–‰ ì‹œìž‘\n";
 		p1978();
 		break;
 	case 2164:
-		cout << problem << "¹ø ¹®Á¦ ¼Ö·ç¼Ç ½ÇÇà ½ÃÀÛ\n";
+		cout << problem << "ë²ˆ ë¬¸ì œ ì†”ë£¨ì…˜ ì‹¤í–‰ ì‹œìž‘\n";
 		p2164();
 		break;
 	default:
-		cout << problem << "Àº ¾ø´Â ¹®Á¦ÀÔ´Ï´Ù.\n";
+		cout << problem << "ì€ ì—†ëŠ” ë¬¸ì œìž…ë‹ˆë‹¤.\n";
 		break;
 	}
 
@@ -63,12 +63,12 @@ int main(){
 	return 0;
 }
 
-//¹éÁØ Á¦Ãâ¿ë format
+//ë°±ì¤€ ì œì¶œìš© format
 /*
-// Çì´õ ¸ñ·Ï & ¹®Á¦ ÇÔ¼ö ÀÔ·Â
+// í—¤ë” ëª©ë¡ & ë¬¸ì œ í•¨ìˆ˜ ìž…ë ¥
 
 int main(){
-	//¹®Á¦¹øÈ£ ÇÔ¼ö ½ÇÇà
+	//ë¬¸ì œë²ˆí˜¸ í•¨ìˆ˜ ì‹¤í–‰
 	return 0;
 }
 

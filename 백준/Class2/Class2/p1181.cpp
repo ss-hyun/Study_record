@@ -1,11 +1,11 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <vector>
 #include <string>
 #include <algorithm>
 
 using namespace std;
 
-// ¹éÁØ 1181¹ø ´Ü¾î Á¤·Ä
+// ë°±ì¤€ 1181ë²ˆ ë‹¨ì–´ ì •ë ¬
 bool compare(string a, string b){
 	if (a.size() < b.size())
 		return true;
@@ -18,7 +18,7 @@ bool compare(string a, string b){
 				return true;
 			i++;
 		}
-	}	
+	}
 	return false;
 }
 

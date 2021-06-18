@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 
 using namespace std;
 
@@ -14,7 +14,7 @@ void p10250(){
 		if (y == 0){
 			x = n / h; y = h;
 		}
-		else
+		else 
 			x = n / h + 1;
 		cout << y * 100 + x << endl;
 		t--;

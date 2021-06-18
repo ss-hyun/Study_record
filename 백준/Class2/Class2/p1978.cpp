@@ -1,8 +1,8 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
-// ¹éÁØ 1978¹ø ¼Ò¼ö Ã£±â
+// ë°±ì¤€ 1978ë²ˆ ì†Œìˆ˜ ì°¾ê¸°
 void p1978(){
 	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
@@ -18,7 +18,7 @@ void p1978(){
 			}
 		}
 	}
-
+	 
 	int n, ans = 0;
 	cin >> n;
 	for (int i = 0, temp; i < n; i++){

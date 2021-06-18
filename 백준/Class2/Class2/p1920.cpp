@@ -1,9 +1,9 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <vector>
 
 using namespace std;
 
-// ¹éÁØ 1920¹ø ¼ö Ã£±â
+// ë°±ì¤€ 1920ë²ˆ ìˆ˜ ì°¾ê¸°
 struct node{
 	int n;
 	int left;
@@ -11,12 +11,12 @@ struct node{
 };
 void p1920(){
 	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-	int n, m;
+	int n, m; 
 	vector<node> tree(100001);
 	
-	// Ç®ÀÌ 1 : ÀÌÁø Æ®¸® ÀÌ¿ëÇÏ¿© search
+	// í’€ì´ 1 : ì´ì§„ íŠ¸ë¦¬ ì´ìš©í•˜ì—¬ search
 	cin >> n;
-	// size : dummy node Á¦¿ÜÇÑ node ¼ö
+	// size : dummy node ì œì™¸í•œ node ìˆ˜
 	int i, temp, curr ,size = 0;
 	cin >> temp;
 	tree[0] = { temp, -1, -1 };
@@ -71,7 +71,7 @@ void p1920(){
 		}
 	}
 
-	// Ç®ÀÌ 2 : ºÐÇÒ Á¤º¹ ÀÌ¿ëÇÏ¿© search
+	// í’€ì´ 2 : ë¶„í•  ì •ë³µ ì´ìš©í•˜ì—¬ search
 	/*
 	cin >> n;
 	int i, temp;

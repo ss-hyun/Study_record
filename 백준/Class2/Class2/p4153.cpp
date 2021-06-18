@@ -1,11 +1,11 @@
-#include <iostream>
+﻿#include <iostream>
 
 using namespace std;
 
 void p4153(){
 	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 	int seg[3], maxIndex;
-
+	 
 	while (true){
 		cin >> seg[0] >> seg[1] >> seg[2];
 		if (seg[0] == 0 && seg[1] == 0 && seg[2] == 0)

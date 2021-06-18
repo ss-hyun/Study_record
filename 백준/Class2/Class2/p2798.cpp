@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <vector>
 #include <algorithm>
 
@@ -10,7 +10,7 @@ bool compare(int a, int b){
 
 void p2798(){
 	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-
+	 
 	int n, m;
 	vector<int> card;
 
