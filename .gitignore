@@ -11,3 +11,4 @@ Debug/
 *.suo
 *.user
 git ignore 사용법.jpg
+.gitattributes
