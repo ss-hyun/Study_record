@@ -10,5 +10,8 @@ Debug/
 *.filters
 *.suo
 *.user
-git ignore 사용법.jpg
+*.jpg
+!TIL_markdown_doc/*.jpg
+!생활코딩/*.jpg
+!docs/*.jpg
 .gitattributes
