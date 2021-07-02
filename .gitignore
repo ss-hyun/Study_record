@@ -1,13 +1,5 @@
 *.hwp
 *.pdf
-연습장/
-2020*/
-Debug/
-*.sln
-*.sdf
-*.opensdf
-*.vcxproj
-*.filters
 *.suo
 *.user
 *.jpg

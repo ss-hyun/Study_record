@@ -10,6 +10,15 @@ title: "ss's TIL"
 
 <br>
 
+## 웹페이지 제작
+* 프론트엔드
+    * HTML/CSS
+        1. 기초 : 생활코딩 사이트
+* 웹호스팅 - github pages를 이용
+* &lt;plan> 마크다운 문서 HTML 변환 프로그램 제작
+
+<br>
+
 ## 공부한 내용 마크다운 문서화
 * HTML/CSS
 * c/c++
@@ -30,6 +39,7 @@ title: "ss's TIL"
 * [[June] 6일 3번 : 연산자 우선순위 문서화](TIL_2021_06.md#20210606)  
 * [[June] 18일 6번 : sort 함수 공부 및 정리](TIL_2021_06.md#20210618)  
 * [[June] 18일 3번 : github & VS 2013 한글 주석 깨짐 현상](TIL_2021_06.md#20210618)
+* [[June] 25일 2번 : github pages 정리](TIL_2021_06.md#20210625)
 
 <br>
 
