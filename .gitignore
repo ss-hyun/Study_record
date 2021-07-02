@@ -2,8 +2,12 @@
 *.pdf
 *.suo
 *.user
+*.png
+!markdown_doc/*.png
+!TIL_record/*.png
+!docs/*.png
 *.jpg
-!TIL_markdown_doc/*.jpg
-!생활코딩/*.jpg
+!markdown_doc/*.jpg
+!TIL_record/*.jpg
 !docs/*.jpg
 .gitattributes
