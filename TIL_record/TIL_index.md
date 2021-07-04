@@ -15,7 +15,7 @@ title: "ss's TIL"
     * HTML/CSS
         1. 기초 : 생활코딩 사이트
 * 웹호스팅 - github pages를 이용
-* &lt;plan> 마크다운 문서 HTML 변환 프로그램 제작
+* &lt;plan> 마크다운 문서 HTML 변환 프로그램(정적 사이트 생성기) 제작
 
 <br>
 
