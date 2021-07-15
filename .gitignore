@@ -3,11 +3,11 @@
 *.suo
 *.user
 *.png
-!markdown_doc/*.png
-!TIL_record/*.png
-!docs/*.png
+!markdown_doc/**/*.png
+!TIL_record/**/*.png
+!docs/**/*.png
 *.jpg
-!markdown_doc/*.jpg
-!TIL_record/*.jpg
-!docs/*.jpg
+!markdown_doc/**/*.jpg
+!TIL_record/**/*.jpg
+!docs/**/*.jpg
 .gitattributes
