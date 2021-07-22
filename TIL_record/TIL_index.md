@@ -4,17 +4,21 @@ title: "ss's TIL"
 
 # TIL 진행 목록
 ## 코딩테스트 준비
-* 백준 알고리즘 문제풀이 - solved&#46;ac 에서 제공하는 class의 에센셜 문제 풀이  
-    * 완료 : class 2
-    * 진행중 : class 3 
+* 백준 알고리즘 문제풀이 - solved&#46;ac 에서 제공하는 class 문제 풀이  
+: 기본적으로 각 클래스의 essential 문제 풀이를 주로 진행하고, 부가적으로 틈틈히 essential 문제 풀이를 완료한 클래스의 일반 문제 풀이를 진행한다.
+
+    * 완료 : class 2 (essential) / class 3 (essential)
+    * 진행중 : class 4 (essential) / class 2 
 
 <br>
 
 ## 웹페이지 제작
 * 프론트엔드
     * HTML/CSS
-        1. 기초 : 생활코딩 사이트
+        1. 기초 : 생활코딩 사이트  
+
 * 웹호스팅 - github pages를 이용
+
 * &lt;plan> 마크다운 문서 HTML 변환 프로그램(정적 사이트 생성기) 제작
 
 <br>
@@ -55,6 +59,7 @@ title: "ss's TIL"
 
 # To be continued
 ## Study++
+* [간이 테스터 만들기(반례찾기)](../markdown_doc/tip_collection.md#간이-테스터-만들기반례찾기)
 * [[June] 10일 1번 : c++20 formatting 라이브러리](TIL_2021_06.md#20210610)
 * [[June] 20일 1번 : 요세푸스 문제](TIL_2021_06.md#20210620)
 
