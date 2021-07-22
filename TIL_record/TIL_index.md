@@ -60,6 +60,7 @@ title: "ss's TIL"
 # To be continued
 ## Study++
 * [간이 테스터 만들기(반례찾기)](../markdown_doc/tip_collection.md#간이-테스터-만들기반례찾기)
+* [Fast IO 코드 직접 만들어보기](../markdown_doc/tip_collection.md#fast-io-c17)
 * [[June] 10일 1번 : c++20 formatting 라이브러리](TIL_2021_06.md#20210610)
 * [[June] 20일 1번 : 요세푸스 문제](TIL_2021_06.md#20210620)
 
