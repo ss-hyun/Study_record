@@ -49,6 +49,180 @@ int main(){
 
 <br>
 
+## GNU C 속성 체계 : &lowbar;&lowbar;attribute__
+---
+### **함수 속성(Funtion attribute)**
+
+* 사용 형식
+
+    ```
+    [return type] [function name](parameter list) __attribute__((attribute name(parameter list))) 
+    ```
+    ```c
+    //Example
+    void f() __attribute__((alias("__f")));
+    int my_printf(const char *format, ...) __attribute__((format(print, 1, 2)));
+    ```
+* 종류
+
+    ```c
+    alias("target")
+    /*
+    alias 속성은 이미 존재하는 함수에 대하여 별칭(alias, 가명, 함수를 호출할 수 있는 다른 이름)을 가질 수 있도록 해준다.
+    별칭으로 함수를 호출하면 컴파일러는 이 호출을 원본 함수에 대한 호출로 대체해준다.
+    */
+
+    // Example
+    #include <stdio.h>
+
+    void original_func() {
+        printf("%s\n", __FUNCTION__);
+        return;
+    }
+
+    void rename_func() __attribute__((alias("original_func")));
+    
+    int main(){
+        rename_func();
+        // == original_func()
+        // 원본 함수를 호출, 문자열 original_func가 print된다.
+    }
+    ```
+    ```
+    aligned(alignment)
+    alloc_size
+    always_inline
+    gnu_inline
+    artifical
+    bank_switch
+    flatten
+    error("message")
+    warning("message")
+    cdecl
+    const
+    constructor
+    destructor
+    constructor(priority)
+    destructor(priority)
+    deprecated
+    deprecated(msg)
+    disinterrupt
+    dllexport
+    dllimport
+    eightbit_data
+    exception_handler
+    externelly_visible
+    far
+    fast_interrupt
+    fastcall
+    thiscall
+    ```
+    ```c
+    format(archetype, string-index, first-to-check)
+    /*
+    format 속성은 해당 함수가 특정한 함수 인자 스타일(ex. printf, scanf, strftime, ...)을 가지는 것을 표기하여
+    formatting 된 문자열에 대해 type check가 이루어지도록 한다.
+    
+    [parameter]
+    archetype : 포맷 문자열을 해석할 방식
+                printf, scanf, gnu_printf, gnu_scanf, gnu_strftime, strfmon 중 한 가지
+    string-index : 포맷 문자열의 함수 인자의 위치(순서)
+    first-to-check : 포맷 문자열에 대해 첫 번째로 체크할 함수 인자의 위치(순서)
+    */
+
+    // Example
+    #include <stdio.h>
+
+    void myprint(const char *format, ...) __attribute__((format(print, 1, 2)));
+
+    // 컴파일 시 경고 메세지 출력, 속성 부분을 삭제하면 경고 문구가 사라진다.
+    int main(){
+        myprint("%d\n",4);
+        myprint("%s\n",4); 
+        // warning : format '%d' expects type 'int', but argument 2 has type 'char *'
+        myprint("%s\n","abc");
+        myprint("%s %d %d\n",4, 6);
+        // warning : format '%s' expects type 'char *', but argument 2 has type 'int'
+        // warning : toot few arguments for format
+    }
+    ```
+    ```
+    format_arg(string-index)
+    function_vector
+    interrupt
+    ifunc
+    interrupt_handler
+    interrupt_thread
+    isr
+    kspisusp
+    l1_text
+    l2
+    leaf
+    long_call/short_call
+    longcall/shortcall
+    long_call/near/far
+    malloc
+    mips16/nomips16
+    model(model-name)
+    ms_abi/sysv_abi
+    callee_pop_aggregate_return(number)
+    ms_hook_prologue
+    naked
+    near
+    nesting
+    nmi_handler
+    no_instrument_function
+    no_split_stack
+    noinline
+    noclone
+    nonull(arg-index, ...)
+    noreturn
+    nothrow
+    optimize
+    pcs
+    pure
+    hot
+    cold
+    regparm(number)
+    sseregparm
+    force_align_arg_pointer
+    resbank
+    return_twice
+    saveall
+    save_volatiles
+    section
+    sentinel
+    short_call
+    shortcall
+    signal
+    sp_switch
+    stdcall    
+    syscall_linkage
+    target
+    tiny_data
+    trap_exit
+    unused
+    used
+    version_id
+    visibility
+    vliw
+    warn_unused_result
+    weak
+    weakref
+    weakref("target")   
+    ```    
+
+<br>
+
+### **변수 속성(Variable attribute)**
+
+
+<br>
+
+### **타입 속성(Type attribute)**
+
+<br>
+
 # 사용되는 유용한 툴
 ## vim 플러그인
 ---
