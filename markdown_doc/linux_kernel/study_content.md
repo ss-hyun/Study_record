@@ -14,6 +14,38 @@ title: "Linux kernel : Record learning content"
 ## 명령어
 ---
 
+<br>
+
+# GCC (GNU Compiler Colllection)
+## 전처리기 (define, 매크로)
+---
+### **# 연산자**
+받아온 매크로 변수 앞에 연산자 #을 붙여 매크로 변수를 문자열로 바꾸어준다.
+```c
+//Example
+#include <stdio.h>
+#define PRINT(s) printf(#s)
+#define ERR_PRINT(s) printf(s)
+
+int main(){
+    PRINT(Hello);       // == printf("Hello") > Hello print 
+    ERR_PRINT(Hello);   //== printf(Hello) > error 발생
+}
+```
+
+### **## 연산자**
+두 개의 토큰 사이에 ## 연산자를 붙여 두 토큰을 이어준다(붙여준다).
+```c
+//Example
+#include <stdio.h>
+#define DECLARE_INT_a(n) int a##n
+
+int main(){
+    DECLARE_INT_a(0);   // == int a0 > a0 선언
+    a0 = 3;
+    printf("%d",a0);    // a0의 값 3 출력
+}
+```
 
 <br>
 
