@@ -11,3 +11,4 @@
 !TIL_record/**/*.jpg
 !docs/**/*.jpg
 .gitattributes
+TIL_record/
